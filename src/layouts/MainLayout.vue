@@ -14,7 +14,7 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header> 選單 </q-item-label>
+        <q-item-label header style="background-color: #40477b; color: white"> 選單 </q-item-label>
         <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" />
       </q-list>
     </q-drawer>
@@ -33,6 +33,7 @@ const leftDrawerOpen = ref(true);
 
 const linksList: EssentialLinkProps[] = [
   { title: '首頁', icon: 'home', link: '/' },
+  { title: '中成特約', icon: 'shop', link: '/shops' },
   { title: '法規、公告與會議紀錄', icon: 'class', link: '/law' },
   { title: '行政', icon: 'people', link: '/administration' },
   { title: '歷史', icon: 'history', link: '/history' },
