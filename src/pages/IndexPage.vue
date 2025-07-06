@@ -1,11 +1,6 @@
 <template>
   <q-page class="q-pa-md">
-    <q-card
-      flat
-      bordered
-      class="q-pa-xl q-mx-auto shadow-2 bg-white"
-      style="max-width: 700px; width: 100%"
-    >
+    <q-card flat bordered class="q-pa-xl q-mx-auto shadow-2" style="max-width: 700px; width: 100%">
       <q-card-section class="column items-center">
         <q-img
           src="/icons/LOGO.ico"
@@ -15,7 +10,7 @@
         />
         <div class="text-h4 text-center q-mt-md">
           <br />
-          <strong>臺北市立成功高級中學代班級代表聯席會</strong>
+          <strong>臺北市立成功高級中學<br />班級代表聯席會</strong>
           <br />
           <br />
         </div>
