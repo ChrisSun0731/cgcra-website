@@ -1,14 +1,13 @@
 <template>
   <q-item
     clickable
-    tag="a"
-    target="_blank"
-    :href="link"
+    :to="isExternal ? undefined : link"
+    :href="isExternal ? link : undefined"
+    :target="isExternal ? '_blank' : undefined"
+    :tag="isExternal ? 'a' : 'div'"
+    exact
   >
-    <q-item-section
-      v-if="icon"
-      avatar
-    >
+    <q-item-section v-if="icon" avatar>
       <q-icon :name="icon" />
     </q-item-section>
 
@@ -20,16 +19,20 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue';
+
 export interface EssentialLinkProps {
   title: string;
   caption?: string;
   link?: string;
   icon?: string;
-};
+}
 
-withDefaults(defineProps<EssentialLinkProps>(), {
+const props = withDefaults(defineProps<EssentialLinkProps>(), {
   caption: '',
-  link: '#',
+  link: '/',
   icon: '',
 });
+
+const isExternal = computed(() => /^https?:\/\//.test(props.link));
 </script>
