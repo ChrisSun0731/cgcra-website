@@ -5,7 +5,7 @@
         <q-img
           src="../../public/icons/LOGO.ico"
           alt="cglogo"
-          style="max-width: 50%; max-height: 50%"
+          style="max-width: 40%; max-height: 40%"
           fit="contain"
         />
         <br />

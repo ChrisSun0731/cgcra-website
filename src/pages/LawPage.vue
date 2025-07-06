@@ -10,7 +10,7 @@
         <q-img
           src="/icons/LOGO.ico"
           alt="cglogo"
-          style="max-width: 50%; max-height: 50%"
+          style="max-width: 40%; max-height: 40%"
           fit="contain"
         />
         <div class="text-h4 text-center q-mt-md">

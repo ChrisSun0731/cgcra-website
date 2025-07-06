@@ -10,13 +10,28 @@
         <q-img
           src="/icons/LOGO.ico"
           alt="cglogo"
-          style="max-width: 50%; max-height: 50%"
+          style="max-width: 40%; max-height: 40%"
           fit="contain"
         />
         <div class="text-h4 text-center q-mt-md">
           <br />
           <strong>聯絡代聯會</strong>
           <br /><br />
+        </div>
+      </q-card-section>
+
+      <q-separator spaced />
+
+      <q-card-section class="text-canter">
+        <div class="text-h5 text-center q-mt-md">
+          <strong>學生意見箱回覆</strong> <br /><br />
+          <q-btn
+            size="l"
+            style="color: white; background-color: #40477b"
+            class="q-mx-auto"
+            @click="goToReplyGoogleDrive"
+            >學生意見箱回覆</q-btn
+          >
         </div>
       </q-card-section>
 
@@ -36,3 +51,16 @@
     </q-card>
   </q-page>
 </template>
+
+<script lang="ts">
+export default {
+  methods: {
+    goToReplyGoogleDrive() {
+      window.open(
+        'https://drive.google.com/drive/folders/1JY85CGzynRJtoBMtYpMxTaWAIEF351d1',
+        '_blank',
+      );
+    },
+  },
+};
+</script>
