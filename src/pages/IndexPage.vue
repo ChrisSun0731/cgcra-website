@@ -10,11 +10,14 @@
         <q-img
           src="/icons/LOGO.ico"
           alt="cglogo"
-          style="max-width: 150px; max-height: 150px"
+          style="max-width: 50%; max-height: 50%"
           fit="contain"
         />
-        <div class="text-h5 text-center q-mt-md">
+        <div class="text-h4 text-center q-mt-md">
+          <br />
           <strong>臺北市立成功高級中學代班級代表聯席會</strong>
+          <br />
+          <br />
         </div>
       </q-card-section>
 

@@ -36,7 +36,8 @@ const linksList: EssentialLinkProps[] = [
   { title: '法規、公告與會議紀錄', icon: 'class', link: '/law' },
   { title: '行政', icon: 'people', link: '/administration' },
   { title: '歷史', icon: 'history', link: '/history' },
-  { title: '聯絡我們', icon: 'mail', link: '/contact' },
+  { title: '聯絡代聯會', icon: 'mail', link: '/contact' },
+  { title: '關於', icon: 'info', link: '/about' },
 ];
 
 function toggleLeftDrawer() {
