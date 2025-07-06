@@ -44,7 +44,7 @@ const linksList: EssentialLinkProps[] = [
     link: '/',
   },
   {
-    title: '法規',
+    title: '法規、公告與會議紀錄',
     caption: '',
     icon: 'class',
     link: '/law',

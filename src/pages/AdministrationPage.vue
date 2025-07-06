@@ -1,3 +1,5 @@
 <template>
-  <p>hi</p>
+  <q-card>
+    <q-card-section> </q-card-section>
+  </q-card>
 </template>

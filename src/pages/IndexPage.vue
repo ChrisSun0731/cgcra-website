@@ -9,7 +9,7 @@
       <q-card-section class="column items-center">
         <q-img
           src="/icons/LOGO.ico"
-          alt="cklogo"
+          alt="cglogo"
           style="max-width: 150px; max-height: 150px"
           fit="contain"
         />
