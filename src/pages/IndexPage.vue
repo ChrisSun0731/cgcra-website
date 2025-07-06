@@ -1,10 +1,10 @@
 <template>
-  <q-page class="row items-center justify-center">
+  <q-page class="q-pa-md">
     <q-card
       flat
       bordered
       class="q-pa-xl q-mx-auto shadow-2 bg-white"
-      style="max-width: 800px; width: 100%"
+      style="max-width: 700px; width: 100%"
     >
       <q-card-section class="column items-center">
         <q-img

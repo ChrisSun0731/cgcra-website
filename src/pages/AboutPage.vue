@@ -1,6 +1,6 @@
 <template>
-  <q-page class="q-pa-md flex flex-center">
-    <q-card flat bordered class="q-pa-lg q-mx-auto" style="max-width: 600px; width: 100%">
+  <q-page class="q-pa-md">
+    <q-card flat bordered class="q-pa-lg q-mx-auto" style="max-width: 700px; width: 100%">
       <q-card-section class="column items-center">
         <q-img
           src="../../public/icons/LOGO.ico"
